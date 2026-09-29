@@ -1,0 +1,605 @@
+Region,State,City,Sales,Profit
+South,Kentucky,Henderson,15661.01,4518.82
+West,California,Los Angeles,175851.34,30440.76
+South,Florida,Fort Lauderdale,4929.53,-161.36
+South,North Carolina,Concord,5111.84,-1788.69
+West,Washington,Seattle,119540.74,29156.1
+Central,Texas,Fort Worth,6602.71,298.73
+Central,Wisconsin,Madison,5346.79,1123.66
+West,Utah,West Jordan,311.85,102.67
+West,California,San Francisco,112669.09,17507.39
+Central,Nebraska,Fremont,1119.01,179.47
+East,Pennsylvania,Philadelphia,109077.01,-13837.77
+West,Utah,Orem,2994.09,514.63
+Central,Texas,Houston,64504.76,-10153.55
+Central,Texas,Richardson,1288.46,-24.49
+Central,Illinois,Naperville,1288.3,-146.53
+South,Florida,Melbourne,95.62,9.56
+Central,Minnesota,Eagan,214.28,87.03
+Central,Michigan,Westland,2057.98,389.6
+East,Delaware,Dover,449.12,116.13
+Central,Indiana,New Albany,209.55,73.35
+East,New York,New York City,256368.16,62036.98
+East,New York,Troy,1326.56,330.44
+Central,Illinois,Chicago,48539.54,-6654.57
+West,Arizona,Gilbert,4172.38,138.25
+South,Virginia,Springfield,16628.53,4568.58
+Central,Michigan,Jackson,15420.04,5525.2
+South,Tennessee,Memphis,5942.34,-1479.04
+South,Alabama,Decatur,3374.82,1000.09
+South,North Carolina,Durham,879.96,116.87
+South,South Carolina,Columbia,6168.16,1388.38
+Central,Minnesota,Rochester,1957.4,520.2
+Central,Minnesota,Minneapolis,16870.54,6824.58
+West,Oregon,Portland,4051.87,9.76
+Central,Minnesota,Saint Paul,192.83,24.88
+West,Colorado,Aurora,4083.51,-797.02
+South,North Carolina,Charlotte,13693.34,-429.78
+Central,Illinois,Orland Park,339.96,67.99
+Central,Iowa,Urbandale,149.12,57.72
+East,Ohio,Columbus,15900.79,-729.51
+South,Tennessee,Bristol,436.6,-126.52
+East,Delaware,Wilmington,6553.9,1775.07
+Central,Illinois,Bloomington,963.94,-432.13
+West,Arizona,Phoenix,11000.26,-2790.88
+West,California,Roseville,734.78,316.94
+Central,Missouri,Independence,2417.37,975.66
+West,California,Pasadena,4112.69,429.98
+East,Ohio,Newark,8128.07,-2292.41
+Central,Wisconsin,Franklin,4774.25,1292.78
+West,Arizona,Scottsdale,1466.31,-89.49
+West,California,San Jose,6071.23,1216.06
+Central,Oklahoma,Edmond,959.55,243.1
+West,New Mexico,Carlsbad,419.34,157.77
+Central,Texas,San Antonio,21843.53,-7299.05
+Central,Illinois,Decatur,3169.47,-311.03
+South,Louisiana,Monroe,1757.37,555.8
+East,Connecticut,Fairfield,4935.58,1221.62
+Central,Texas,Grand Prairie,1012.49,-85.23
+West,California,Redlands,2891.02,454.16
+East,Ohio,Hamilton,328.22,-9.39
+East,New Jersey,Westfield,519.72,153.18
+East,Ohio,Akron,2729.99,-186.64
+West,Colorado,Denver,12198.79,-244.92
+Central,Texas,Dallas,20131.93,-2846.53
+South,Tennessee,Franklin,948.23,-92.54
+West,California,Whittier,444.77,44.48
+Central,Michigan,Saginaw,395.86,77.18
+East,Ohio,Medina,2477.72,-1343.04
+East,Ohio,Dublin,2379.16,-351.3
+Central,Michigan,Detroit,42446.94,13181.79
+South,Tennessee,Columbia,5162.77,-664.26
+South,Florida,Tampa,5196.08,-325.24
+West,California,Santa Clara,222.19,76.0
+Central,Minnesota,Lakeville,4260.95,1346.6
+West,California,San Diego,47521.03,6377.2
+Central,Texas,Pasadena,2477.46,-340.1
+West,California,Brentwood,5090.11,1216.81
+South,North Carolina,Chapel Hill,14.02,4.73
+East,New Jersey,Morristown,5033.1,1838.23
+East,Ohio,Cincinnati,1611.98,175.34
+West,California,Inglewood,3479.33,1026.7
+South,Florida,Tamarac,1413.51,-351.9
+West,Colorado,Colorado Springs,3694.01,-956.68
+East,New Jersey,Belleville,1891.6,283.65
+Central,Michigan,Taylor,353.7,44.87
+East,New Jersey,Lakewood,14852.04,3526.67
+South,Virginia,Arlington,14366.76,4424.09
+West,Colorado,Arvada,503.4,59.86
+East,New Jersey,Hackensack,1456.16,451.25
+South,Florida,Saint Petersburg,1690.79,151.98
+West,California,Long Beach,4933.83,746.4
+West,California,Hesperia,1213.17,98.53
+South,Tennessee,Murfreesboro,337.33,15.69
+West,Utah,Layton,4.96,2.33
+Central,Texas,Austin,6057.98,-20.39
+East,Massachusetts,Lowell,4837.93,1312.57
+South,Georgia,Columbus,14845.05,4104.12
+East,Connecticut,Manchester,2126.28,600.51
+Central,Texas,Harlingen,471.4,18.13
+West,Arizona,Tucson,6313.02,-64.97
+Central,Illinois,Quincy,330.28,49.1
+East,Massachusetts,Franklin,5534.56,464.63
+South,Florida,Pembroke Pines,1714.38,-72.45
+West,Washington,Des Moines,3454.44,1250.34
+Central,Illinois,Peoria,501.48,-72.76
+West,Nevada,Las Vegas,1834.02,332.44
+East,Rhode Island,Warwick,2426.84,1063.8
+South,Florida,Miami,8673.07,-1150.37
+South,North Carolina,Wilmington,743.16,172.63
+West,California,Huntington Beach,2527.82,880.04
+South,Kentucky,Richmond,6761.52,2275.64
+West,Colorado,Louisville,5070.42,-3406.21
+East,Massachusetts,Lawrence,6109.06,1849.4
+South,Mississippi,Jackson,7426.61,2100.44
+Central,Michigan,Canton,818.13,149.28
+East,New York,New Rochelle,1255.23,368.41
+South,North Carolina,Gastonia,895.06,-14.74
+South,Florida,Jacksonville,39133.33,-2445.66
+Central,Indiana,Columbus,7960.4,2522.48
+East,New York,Auburn,1384.16,280.8
+Central,Oklahoma,Norman,1351.33,269.53
+West,California,Concord,2602.93,282.42
+Central,Illinois,Park Ridge,685.0,-238.45
+Central,Texas,Amarillo,3773.06,-387.97
+East,New York,Lindenhurst,55.48,26.63
+Central,Texas,Huntsville,6710.62,-843.43
+East,New York,Rochester,6017.13,1223.22
+South,Arkansas,Fayetteville,3742.81,1691.94
+West,California,Costa Mesa,1497.67,297.21
+West,Colorado,Parker,1067.94,-164.19
+South,Georgia,Atlanta,17197.84,6993.66
+Central,Missouri,Gladstone,164.34,52.59
+West,Montana,Great Falls,4605.58,1582.71
+South,Florida,Lakeland,5606.89,-188.64
+South,Alabama,Montgomery,3722.73,834.66
+West,Arizona,Mesa,4037.74,-559.23
+Central,Wisconsin,Green Bay,527.32,228.48
+East,Ohio,Springfield,5613.17,-1420.16
+West,California,Anaheim,7986.87,1234.0
+West,Washington,Marysville,102.18,3.32
+West,Oregon,Salem,1404.7,-262.33
+Central,Texas,Laredo,1024.34,-54.61
+East,Ohio,Grove City,123.59,13.2
+Central,Michigan,Dearborn,1603.31,467.39
+South,Georgia,Warner Robins,434.8,53.69
+West,California,Vallejo,1221.41,336.04
+West,California,Mission Viejo,775.99,151.06
+Central,Michigan,Rochester Hills,132.52,54.33
+East,New Jersey,Plainfield,4526.85,1235.67
+West,Arizona,Sierra Vista,76.07,16.83
+West,Washington,Vancouver,686.84,75.45
+Central,Illinois,Aurora,7572.97,-1894.72
+Central,Texas,Arlington,5847.77,-254.39
+South,Kentucky,Louisville,7275.39,1975.9
+East,Ohio,Cleveland,6346.18,-848.01
+Central,Texas,Tyler,347.21,-443.71
+South,North Carolina,Burlington,12681.28,-5894.53
+South,Virginia,Waynesboro,3058.77,603.39
+East,Pennsylvania,Chester,1968.48,48.36
+South,North Carolina,Cary,505.21,54.04
+South,Florida,Palm Coast,274.43,17.66
+East,New York,Mount Vernon,2119.63,662.51
+South,Florida,Hialeah,2338.95,-179.23
+East,New York,Oceanside,3851.13,655.17
+Central,Illinois,Evanston,1753.8,411.88
+Central,Michigan,Trenton,1765.2,652.1
+Central,Minnesota,Cottage Grove,144.36,54.8
+South,Louisiana,Bossier City,1417.18,336.96
+Central,Iowa,Des Moines,2008.84,360.4
+West,California,Lancaster,477.44,79.44
+South,Virginia,Richmond,5141.26,1409.74
+South,North Carolina,Asheville,1475.38,77.51
+West,California,Lake Elsinore,283.92,17.74
+Central,Nebraska,Omaha,6312.53,1841.63
+West,Washington,Edmonds,2523.69,634.25
+West,California,Santa Ana,3366.31,836.75
+Central,Wisconsin,Milwaukee,11410.22,2793.09
+South,Kentucky,Florence,4559.8,1837.35
+East,Ohio,Lorain,2015.11,-632.92
+East,New Jersey,Linden,115.36,49.6
+West,California,Salinas,728.89,270.52
+East,New Jersey,New Brunswick,14.77,7.16
+East,Pennsylvania,Lancaster,1211.4,-168.89
+East,New Hampshire,Concord,2827.63,787.63
+East,Maryland,Columbia,10962.35,3775.22
+Central,Texas,Garland,67.7,-32.37
+East,Connecticut,Norwich,414.04,164.09
+South,Virginia,Alexandria,5519.57,318.62
+East,Ohio,Toledo,4466.05,-340.0
+West,New Mexico,Farmington,718.72,169.41
+West,California,Riverside,1944.25,374.73
+West,California,Torrance,3132.27,545.15
+Central,Texas,Round Rock,4854.05,-1183.43
+West,California,Oceanside,499.61,117.51
+South,Florida,Boca Raton,63.01,-22.65
+South,Virginia,Virginia Beach,5752.13,2024.88
+West,California,Murrieta,484.65,92.08
+South,North Carolina,Jacksonville,5579.86,121.83
+Central,Iowa,Burlington,57.43,26.67
+West,Washington,Olympia,1020.45,139.63
+East,District of Columbia,Washington,2865.02,1059.59
+Central,Missouri,Jefferson City,86.62,8.66
+Central,Missouri,Saint Peters,697.16,146.4
+Central,Illinois,Rockford,3166.23,-1149.51
+Central,Texas,Brownsville,1292.23,202.07
+East,New York,Yonkers,7657.67,2767.76
+West,California,Oakland,5964.42,834.1
+South,North Carolina,Monroe,1213.06,140.83
+East,Maryland,Clinton,5514.25,1274.24
+West,California,Encinitas,591.98,71.06
+South,Georgia,Roswell,6652.32,2427.44
+South,Arkansas,Jonesboro,2915.32,801.11
+Central,Indiana,Richmond,6235.15,1881.86
+West,California,Antioch,19.44,9.33
+South,Florida,Homestead,132.55,22.33
+Central,Indiana,La Porte,1021.34,224.51
+Central,Michigan,Lansing,1610.29,412.87
+East,Ohio,Cuyahoga Falls,29.09,-12.58
+West,Nevada,Reno,644.06,115.05
+South,Virginia,Harrisonburg,4388.71,889.52
+West,California,Escondido,94.55,27.75
+Central,Michigan,Royal Oak,35.34,16.96
+East,Maryland,Rockville,469.77,133.21
+South,Florida,Coral Springs,824.99,18.56
+East,New York,Buffalo,9063.5,992.88
+South,Florida,Boynton Beach,469.59,50.66
+South,Mississippi,Gulfport,166.5,77.58
+West,California,Fresno,7888.53,948.27
+South,North Carolina,Greenville,2117.83,-548.99
+East,New York,Long Beach,8521.2,1362.54
+South,Alabama,Florence,1997.35,248.66
+South,Georgia,Macon,364.01,144.85
+Central,Iowa,Cedar Rapids,278.4,80.74
+East,Rhode Island,Providence,15980.65,5505.66
+West,Colorado,Pueblo,1686.94,-900.97
+West,California,Fairfield,1470.58,117.98
+South,Florida,Deltona,893.24,122.13
+South,Kentucky,Murray,264.62,94.47
+East,Connecticut,Middletown,1154.61,157.62
+East,New York,Freeport,523.33,107.36
+West,California,Pico Rivera,145.9,62.74
+West,Utah,Provo,2761.23,388.57
+West,Utah,Pleasant Grove,2138.18,580.65
+South,Georgia,Smyrna,2390.31,807.33
+South,Virginia,Salem,2039.55,533.03
+East,Ohio,Parma,3879.76,31.06
+South,Alabama,Mobile,5462.99,2175.83
+East,Massachusetts,New Bedford,235.97,50.49
+Central,Texas,Irving,605.5,-100.51
+East,New Jersey,Vineland,647.97,62.25
+West,Arizona,Glendale,2917.86,182.86
+East,New York,Niagara Falls,199.84,59.24
+South,North Carolina,Thomasville,151.29,33.39
+West,California,Westminster,3826.65,763.69
+South,Tennessee,Jackson,2117.21,-43.96
+Central,Texas,Coppell,135.94,41.49
+West,California,Pomona,1482.5,150.3
+West,Nevada,North Las Vegas,9801.0,2247.69
+East,Pennsylvania,Allentown,853.25,-226.45
+East,Delaware,Newark,20448.05,8086.17
+West,Arizona,Tempe,1070.3,95.45
+West,California,Laguna Niguel,290.98,41.98
+East,New Jersey,Bridgeton,52.41,3.44
+East,Massachusetts,Everett,5661.88,1360.08
+East,New York,Watertown,4045.0,907.01
+Central,Wisconsin,Appleton,1671.31,554.77
+West,Washington,Bellevue,103.62,37.05
+Central,Texas,Allen,290.21,-39.88
+Central,Texas,El Paso,3546.06,-179.9
+Central,Texas,Grapevine,41.53,8.77
+Central,Texas,Carrollton,2200.65,-470.21
+South,Tennessee,Smyrna,848.58,19.37
+West,Washington,Kent,1351.25,603.1
+South,Louisiana,Lafayette,5405.75,1042.29
+West,Oregon,Tigard,1393.78,-216.29
+Central,Illinois,Skokie,568.83,-346.87
+Central,Texas,Plano,3530.37,-383.06
+South,Virginia,Suffolk,1597.9,389.81
+Central,Indiana,Indianapolis,9306.42,2741.65
+East,New Jersey,Bayonne,183.4,79.4
+South,North Carolina,Fayetteville,3183.12,126.73
+South,North Carolina,Greensboro,2406.78,-122.95
+East,Maryland,Baltimore,6156.84,1676.2
+Central,Wisconsin,Kenosha,3906.73,1028.07
+Central,Kansas,Olathe,895.79,207.41
+West,Washington,Auburn,4.18,1.5
+Central,Oklahoma,Tulsa,5556.97,1506.93
+West,Oregon,Redmond,1043.03,-174.45
+South,North Carolina,Raleigh,4507.54,472.59
+Central,Oklahoma,Muskogee,1721.7,442.6
+East,Connecticut,Meriden,1550.68,470.22
+South,Kentucky,Bowling Green,211.81,67.12
+Central,Indiana,South Bend,1238.33,279.55
+East,Connecticut,Bristol,814.58,208.16
+West,Nevada,Henderson,1888.06,393.04
+West,Washington,Spokane,2027.92,172.23
+Central,Texas,Keller,6.0,2.1
+East,Ohio,Fairfield,3077.7,-129.29
+South,Florida,Port Orange,7.82,2.93
+West,Oregon,Medford,90.22,19.7
+South,Virginia,Charlottesville,102.61,22.63
+West,Montana,Missoula,487.98,152.5
+South,South Carolina,Florence,1064.57,82.95
+West,Oregon,Springfield,5761.26,-853.31
+South,Florida,Apopka,904.55,54.36
+East,Pennsylvania,Reading,873.71,-268.76
+West,Colorado,Broomfield,793.5,62.44
+Central,Missouri,Springfield,15051.38,3905.59
+East,New Jersey,Paterson,2243.21,740.49
+Central,Oklahoma,Oklahoma City,6596.82,1580.76
+South,Virginia,Chesapeake,5996.72,1262.79
+Central,Texas,Lubbock,592.56,147.14
+Central,Missouri,Columbia,2990.04,1106.77
+South,Tennessee,Johnson City,765.85,11.86
+South,Alabama,Auburn,1766.83,452.61
+West,California,San Bernardino,979.3,69.98
+East,Massachusetts,Leominster,217.49,79.5
+West,Montana,Bozeman,43.66,20.81
+West,Arizona,Peoria,1341.35,-55.11
+East,Ohio,Lakewood,1756.32,-336.61
+East,New Jersey,Perth Amboy,1717.08,633.64
+West,California,Ontario,283.92,-46.14
+West,California,Rancho Cucamonga,231.85,73.74
+Central,Minnesota,Moorhead,543.86,101.41
+Central,Texas,Mesquite,52.15,-87.62
+West,California,Stockton,1227.6,339.53
+South,Florida,Ormond Beach,2.81,-1.97
+West,California,Sunnyvale,636.21,107.51
+East,New Hampshire,Dover,4428.95,905.36
+East,Pennsylvania,York,817.98,-102.17
+Central,Texas,College Station,291.04,-117.62
+Central,Missouri,Saint Louis,285.96,98.55
+East,Massachusetts,Quincy,946.17,297.99
+West,California,Manteca,452.18,172.24
+East,Ohio,Kent,346.3,-11.3
+Central,Texas,San Angelo,650.64,-58.55
+West,Utah,Salt Lake City,802.78,329.26
+South,Alabama,Huntsville,2484.37,1005.26
+South,Tennessee,Knoxville,3928.17,-1165.08
+South,Arkansas,Little Rock,3560.35,1154.67
+Central,Michigan,Lincoln Park,387.6,68.37
+East,Ohio,Marion,3010.99,-544.65
+West,Colorado,Littleton,72.29,-98.8
+East,Vermont,Burlington,8929.37,2244.98
+East,Maine,Bangor,1164.45,422.22
+South,Mississippi,Southaven,1455.39,412.89
+Central,Indiana,New Castle,84.61,23.08
+Central,Michigan,Midland,5291.51,2293.68
+Central,South Dakota,Sioux Falls,1137.42,343.43
+West,Colorado,Fort Collins,935.25,-252.69
+Central,Indiana,Lafayette,19630.45,8976.1
+South,Tennessee,Clarksville,2217.73,-1055.35
+West,California,Sacramento,7311.28,2069.69
+West,California,Thousand Oaks,238.8,99.91
+East,Massachusetts,Malden,228.38,31.17
+East,Massachusetts,Holyoke,301.96,60.39
+West,New Mexico,Albuquerque,2220.16,634.09
+West,Nevada,Sparks,2561.96,228.54
+West,California,Coachella,163.55,47.17
+Central,Illinois,Elmhurst,891.63,-212.13
+East,New Jersey,Passaic,1562.09,356.82
+South,South Carolina,North Charleston,284.25,9.67
+South,Virginia,Newport News,3321.95,1197.05
+East,New York,Jamestown,4708.79,1285.77
+Central,Indiana,Mishawaka,776.24,96.59
+East,Ohio,Bowling Green,1865.56,149.94
+West,California,La Quinta,46.32,18.06
+South,Florida,Tallahassee,7250.67,392.71
+South,Tennessee,Nashville,6070.86,-837.49
+West,Washington,Bellingham,3790.24,610.59
+Central,Illinois,Woodstock,857.25,-24.89
+Central,Texas,Haltom City,269.33,51.96
+Central,Illinois,Wheeling,737.14,-293.32
+South,South Carolina,Summerville,406.94,196.91
+South,Arkansas,Hot Springs,245.83,62.08
+West,Colorado,Englewood,124.06,13.75
+East,Ohio,Lancaster,8202.62,-7149.62
+West,New Mexico,Las Cruces,98.77,43.94
+South,Alabama,Hoover,525.85,18.72
+Central,Texas,Frisco,57.5,-18.8
+West,California,Vacaville,423.28,110.05
+West,Utah,Murray,146.32,37.06
+Central,Wisconsin,Waukesha,54.5,14.17
+West,California,Bakersfield,1377.29,187.92
+South,Florida,Pompano Beach,90.44,15.01
+East,Ohio,Troy,3180.54,-874.59
+Central,Texas,Corpus Christi,220.54,-43.73
+West,California,Redondo Beach,1959.8,176.43
+South,Florida,Orlando,1740.08,377.73
+East,New Jersey,Orange,211.11,66.57
+South,Louisiana,Lake Charles,547.41,241.26
+Central,Illinois,Highland Park,2035.1,-169.94
+East,New York,Hempstead,2589.59,629.06
+Central,Indiana,Noblesville,3091.18,353.31
+Central,Minnesota,Apple Valley,137.94,8.97
+South,South Carolina,Mount Pleasant,545.94,87.35
+Central,Michigan,Sterling Heights,110.04,33.07
+Central,Wisconsin,Eau Claire,1645.65,427.5
+Central,Texas,Pharr,1540.71,-237.55
+West,Montana,Billings,8.29,2.69
+West,Oregon,Gresham,2133.42,150.86
+South,Tennessee,Chattanooga,988.8,27.19
+West,Idaho,Meridian,329.05,95.21
+West,California,Apple Valley,1915.08,283.62
+Central,Illinois,Bolingbrook,218.31,-4.66
+Central,Minnesota,Maple Grove,882.87,385.01
+West,California,Woodland,264.66,33.38
+Central,Texas,Missouri City,6.37,-9.56
+Central,Texas,Pearland,495.0,39.41
+West,California,San Mateo,75.18,35.33
+Central,Michigan,Grand Rapids,526.13,233.92
+West,California,Visalia,318.78,88.05
+Central,Kansas,Overland Park,606.91,203.52
+West,California,Temecula,808.67,101.89
+West,California,Yucaipa,50.8,13.21
+East,Massachusetts,Revere,833.26,258.84
+Central,Texas,Conroe,111.67,6.98
+Central,Illinois,Tinley Park,22.29,-8.92
+Central,Iowa,Dubuque,1687.3,477.67
+Central,Michigan,Dearborn Heights,1051.57,140.89
+West,New Mexico,Santa Fe,100.92,20.69
+South,North Carolina,Hickory,40.76,-1.1
+Central,Illinois,Carol Stream,1305.81,-39.87
+Central,Minnesota,Saint Cloud,1331.82,469.61
+South,Florida,North Miami,22.13,3.08
+Central,Indiana,Lawrence,1545.13,532.74
+South,Florida,Plantation,1436.84,12.04
+South,Florida,Port Saint Lucie,248.95,4.45
+South,South Carolina,Rock Hill,11.85,3.79
+Central,Texas,Odessa,976.12,-69.71
+Central,Wisconsin,West Allis,250.48,28.37
+West,California,Chula Vista,1041.62,248.43
+Central,Kansas,Manhattan,273.96,10.96
+East,Pennsylvania,Altoona,20.45,-1.18
+West,Colorado,Thornton,765.25,140.84
+Central,Illinois,Champaign,151.96,-182.35
+Central,Indiana,Bloomington,603.8,182.77
+South,Arkansas,Texarkana,654.24,163.37
+Central,Texas,Edinburg,88.28,27.81
+Central,Texas,Baytown,10.37,3.63
+Central,Indiana,Greenwood,1665.05,471.73
+West,California,Lakewood,1583.68,43.96
+East,Rhode Island,Woonsocket,195.55,78.68
+Central,Wisconsin,Superior,1299.73,514.08
+Central,Texas,Bedford,226.26,10.62
+West,Washington,Covington,413.68,115.11
+Central,Oklahoma,Broken Arrow,2439.53,575.52
+South,Florida,Miramar,1531.19,32.28
+South,Florida,Hollywood,1070.47,108.2
+Central,Texas,Deer Park,6.92,-10.39
+Central,Kansas,Wichita,825.27,323.93
+Central,Texas,Mcallen,866.72,-163.87
+Central,Iowa,Iowa City,9.99,4.5
+West,Idaho,Boise,1094.47,221.94
+East,Rhode Island,Cranston,4024.92,637.5
+Central,Illinois,Freeport,215.82,-127.45
+Central,Texas,Port Arthur,737.05,105.78
+West,California,Citrus Heights,129.39,54.34
+Central,Texas,The Colony,142.16,31.66
+West,Washington,Redmond,55.23,20.73
+South,Florida,Daytona Beach,272.33,-52.33
+West,Arizona,Bullhead City,22.29,6.72
+Central,Indiana,Portage,16.28,6.51
+Central,North Dakota,Fargo,919.91,230.15
+Central,Indiana,Elkhart,171.43,16.67
+West,California,San Gabriel,2061.01,290.9
+South,Florida,Margate,15.55,2.33
+South,Georgia,Sandy Springs,1997.03,520.59
+East,Ohio,Mentor,693.13,-123.27
+Central,Oklahoma,Lawton,1057.49,235.51
+South,Virginia,Hampton,2722.26,953.83
+East,New York,Rome,534.85,154.21
+Central,Wisconsin,La Crosse,830.41,272.08
+West,Idaho,Lewiston,9.58,3.35
+South,Mississippi,Hattiesburg,1722.84,582.07
+West,California,Danville,1158.88,282.44
+Central,Michigan,Mount Pleasant,17.14,6.17
+West,Utah,Logan,280.28,46.96
+East,Connecticut,Waterbury,1326.06,338.94
+South,Georgia,Athens,1720.81,479.32
+East,Maine,Lewiston,106.08,32.27
+Central,Illinois,Danville,43.37,-69.4
+West,Arizona,Avondale,946.81,76.17
+South,Georgia,Marietta,2938.62,512.15
+West,Arizona,Yuma,840.86,-465.99
+Central,Wisconsin,Wausau,317.48,90.43
+West,Washington,Pasco,2201.11,357.52
+Central,Illinois,Oak Park,10.19,1.02
+South,Florida,Pensacola,2.21,-1.48
+Central,Texas,League City,875.37,-31.35
+East,Maryland,Gaithersburg,405.92,105.54
+West,Utah,Lehi,1516.73,451.66
+South,Alabama,Tuscaloosa,175.7,51.01
+West,California,Moreno Valley,1262.47,353.63
+South,Kentucky,Georgetown,1786.42,402.76
+West,Colorado,Loveland,20.96,4.48
+West,Arizona,Chandler,1076.75,81.46
+West,Montana,Helena,443.84,74.62
+Central,Missouri,Kirkwood,241.34,47.13
+Central,Texas,Waco,606.11,-520.1
+Central,Michigan,Roseville,638.33,268.91
+Central,Illinois,Frankfort,97.63,-26.06
+East,Pennsylvania,Bethlehem,1689.63,-1003.1
+Central,Minnesota,Roseville,2215.52,667.53
+Central,Nebraska,Grand Island,15.96,7.98
+Central,Minnesota,Woodbury,607.65,196.1
+Central,Michigan,Oak Park,580.86,151.02
+South,Arkansas,Rogers,40.41,18.59
+West,New Mexico,Clovis,111.42,11.64
+South,Florida,Jupiter,2.06,0.15
+West,California,Santa Barbara,4289.23,457.29
+Central,Texas,Cedar Hill,122.38,42.83
+Central,Nebraska,Norfolk,17.43,8.02
+West,Utah,Draper,263.65,92.73
+Central,Michigan,Ann Arbor,889.27,228.92
+West,California,La Mesa,367.53,114.39
+West,Idaho,Pocatello,1344.94,181.36
+Central,Michigan,Holland,137.86,66.66
+East,Connecticut,Milford,961.74,319.05
+Central,Illinois,Buffalo Grove,831.4,-89.65
+West,California,Lake Forest,1625.54,327.53
+West,California,Redding,333.58,25.02
+West,California,Chico,2050.18,205.13
+East,New York,Utica,655.04,188.56
+South,Arkansas,Conway,301.96,45.29
+West,Wyoming,Cheyenne,1603.14,100.2
+South,Kentucky,Owensboro,71.18,27.64
+West,Idaho,Caldwell,455.63,58.7
+South,Louisiana,Kenner,89.32,19.8
+East,New Hampshire,Nashua,35.94,13.51
+South,Tennessee,Bartlett,88.96,10.01
+West,California,Redwood City,41.9,14.14
+South,Tennessee,Lebanon,488.9,83.81
+West,California,Santa Maria,115.44,30.01
+Central,Illinois,Des Plaines,1493.21,-236.77
+West,Washington,Longview,119.21,38.9
+South,Tennessee,Hendersonville,319.54,-45.39
+Central,Iowa,Waterloo,30.32,11.82
+East,Massachusetts,Cambridge,502.09,173.73
+Central,Illinois,Palatine,116.31,23.26
+East,Massachusetts,Beverly,2583.19,654.92
+West,Oregon,Eugene,1465.03,134.04
+West,California,Oxnard,1558.1,346.46
+West,Washington,Renton,1242.63,185.43
+Central,Illinois,Glenview,158.38,13.86
+South,Florida,Delray Beach,242.54,29.05
+West,Colorado,Commerce City,146.35,-32.93
+Central,Texas,Texas City,790.97,20.22
+South,North Carolina,Wilson,368.73,-14.34
+West,New Mexico,Rio Rancho,1114.19,119.59
+South,North Carolina,Goldsboro,34.94,3.06
+West,Washington,Everett,3.86,1.4
+West,California,Montebello,27.88,3.9
+West,California,El Cajon,865.62,52.69
+Central,Texas,Beaumont,472.12,59.12
+South,Florida,West Palm Beach,141.33,31.61
+Central,Texas,Abilene,1.39,-3.76
+Central,Illinois,Normal,366.74,-110.02
+Central,Missouri,Saint Charles,270.94,94.84
+Central,Illinois,Saint Charles,1388.71,216.64
+West,California,Camarillo,1467.52,158.8
+West,Oregon,Hillsboro,87.84,1.55
+West,California,Burbank,3247.16,764.53
+West,California,Modesto,326.15,19.94
+Central,Kansas,Garden City,312.38,90.63
+East,New Jersey,Atlantic City,23.36,11.68
+West,Colorado,Longmont,915.09,34.83
+West,California,Davis,32.4,15.55
+East,West Virginia,Wheeling,1209.82,185.92
+West,California,Morgan Hill,545.01,7.85
+East,New Jersey,Clifton,336.82,98.59
+Central,Wisconsin,Sheboygan,79.74,34.34
+South,Georgia,East Point,268.4,102.01
+Central,South Dakota,Rapid City,152.64,44.77
+East,Massachusetts,Andover,435.85,124.19
+South,Florida,Kissimmee,751.98,84.6
+East,Connecticut,Shelton,73.33,21.41
+East,Connecticut,Danbury,27.46,9.89
+Central,Iowa,Marion,358.36,164.29
+South,Florida,Sanford,225.55,-11.83
+Central,Texas,San Marcos,108.44,-19.34
+West,Colorado,Greeley,30.35,10.36
+Central,Texas,Mansfield,558.88,-66.79
+East,Ohio,Elyria,1.82,-1.4
+West,Idaho,Twin Falls,1148.81,266.16
+South,Florida,Coral Gables,64.25,22.36
+Central,Illinois,Romeoville,8.95,-14.77
+East,Massachusetts,Marlborough,206.64,67.61
+East,Maryland,Laurel,152.59,46.17
+Central,Texas,Bryan,616.66,-213.71
+South,Arkansas,Pine Bluff,212.91,70.2
+Central,South Dakota,Aberdeen,25.5,6.63
+East,Maryland,Hagerstown,43.8,20.59
+East,New Jersey,East Orange,377.27,174.62
+Central,Illinois,Arlington Heights,14.11,1.23
+Central,Illinois,Oswego,321.98,-536.13
+Central,Minnesota,Coon Rapids,503.13,136.45
+West,California,San Clemente,90.06,42.54
+West,California,Dublin,22.0,1.38
+West,California,San Luis Obispo,3.62,1.19
+South,Arkansas,Springdale,4.3,1.42
+West,California,Lodi,136.98,44.49
+Central,Texas,La Porte,30.39,-32.53
+East,Ohio,Mason,94.26,-4.24
+South,Georgia,Woodstock,286.65,104.88

@@ -1,4 +1,10 @@
 # Superstore Sales, Profitability & Customer Analytics
+![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-8.0%2B-4479A1?logo=mysql&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-Analytics-336791)
+![Tableau](https://img.shields.io/badge/Tableau-Public-E97627?logo=tableau&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
 **🌐 Blog:** [Read my data articles & case studies](https://bloomindata.in/)
 
 

@@ -1,4 +1,6 @@
 # Superstore Sales, Profitability & Customer Analytics
+**🌐 Blog:** [Read my data articles & case studies](https://bloomindata.in/)
+
 
 An end-to-end retail analytics project analyzing **sales performance, profitability, discount impact, geographic performance, customer value, and growth trends** using Python, MySQL, SQL, and Tableau.
 

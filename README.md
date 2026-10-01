@@ -5,8 +5,6 @@
 ![Tableau](https://img.shields.io/badge/Tableau-Public-E97627?logo=tableau&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
-🌐 **Data Blog:** [bloomindata.in](https://bloomindata.in/)
-
 
 An end-to-end retail analytics project analyzing **sales performance, profitability, discount impact, geographic performance, customer value, and growth trends** using Python, MySQL, SQL, and Tableau.
 

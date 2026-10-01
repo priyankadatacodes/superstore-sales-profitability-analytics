@@ -1,198 +1,178 @@
-# Superstore Sales, Profitability & Customer Analytics
-![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-8.0%2B-4479A1?logo=mysql&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-Analytics-336791)
-![Tableau](https://img.shields.io/badge/Tableau-Public-E97627?logo=tableau&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Completed-success)
+# 📊 Superstore Sales & Profitability Analytics
 
+[![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python\&logoColor=white)](https://www.python.org/)
+[![MySQL](https://img.shields.io/badge/MySQL-8.0%2B-4479A1?logo=mysql\&logoColor=white)](https://www.mysql.com/)
+[![SQL](https://img.shields.io/badge/SQL-Analytics-336791)](https://www.mysql.com/)
+[![Tableau](https://img.shields.io/badge/Tableau-Public-E97627?logo=tableau\&logoColor=white)](https://public.tableau.com/)
+[![Status](https://img.shields.io/badge/Status-Completed-success)](https://github.com/priyankadatacodes/superstore-sales-profitability-analytics)
+[![License](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
 
-An end-to-end retail analytics project analyzing **sales performance, profitability, discount impact, geographic performance, customer value, and growth trends** using Python, MySQL, SQL, and Tableau.
-
-> **Business Question:** Where is the business making money, where is it losing money, and why?
-
----
-
-## Table of Contents
-
-1. [Project Overview](#1-project-overview)
-2. [Business Problem](#2-business-problem)
-3. [Dataset](#3-dataset)
-4. [Tech Stack](#4-tech-stack)
-5. [Project Workflow](#5-project-workflow)
-6. [Project Structure](#6-project-structure)
-7. [Setup & Installation](#7-setup--installation)
-8. [How to Run](#8-how-to-run)
-9. [Data Cleaning & Feature Engineering](#9-data-cleaning--feature-engineering)
-10. [SQL Analysis](#10-sql-analysis)
-11. [Tableau Dashboards](#11-tableau-dashboards)
-12. [Key Findings](#12-key-findings)
-13. [Business Recommendations](#13-business-recommendations)
-14. [Limitations](#14-limitations)
-15. [Future Improvements](#15-future-improvements)
-16. [Skills Demonstrated](#16-skills-demonstrated)
-17. [Author](#17-author)
+> **End-to-end retail analytics project focused on sales performance, profitability, discount impact, geographic performance, customer value, and growth trends.**
 
 ---
 
-# 1. Project Overview
+## 📌 Executive Summary
 
-| Metric              |                           Value |
-| ------------------- | ------------------------------: |
-| Project Type        | Self-directed portfolio project |
-| Domain              |           Multi-category retail |
-| Analysis Period     |                       2014–2017 |
-| Total Orders        |                           5,009 |
-| Customers           |                             793 |
-| Total Sales         |                   $2,297,200.86 |
-| Total Profit        |                     $286,397.02 |
-| Profit Margin       |                          12.47% |
-| Average Order Value |                         $458.61 |
-| Dashboards          |                               5 |
+This project analyzes the **Sample Superstore** dataset to identify revenue drivers, profitability gaps, discount-related margin pressure, geographic performance differences, and customer-value segments.
 
-The project follows a complete analytics pipeline:
+The solution follows a complete analytics workflow:
 
-**Python → MySQL → SQL → Tableau**
+**Python → MySQL → SQL → Tableau → Business Insights**
+
+### Core Business Question
+
+> **Where is the business making money, where is it losing money, and why?**
 
 ---
 
-# 2. Business Problem
+## 🎯 Business Problem
 
-The project was designed to answer five business questions:
+Retail performance cannot be evaluated through revenue alone. The analysis focuses on understanding the relationship between **sales, profit, discounts, customers, geography, and time**.
 
-1. **Where is the company generating revenue?**
-2. **Where is it making or losing money?**
-3. **Are discounts reducing profitability?**
-4. **Is the business growing profitably over time?**
-5. **Which customers are valuable, loyal, at risk, or lost?**
+### Key Business Questions
 
-### Success Criteria
-
-Every major finding should be:
-
-* Quantified in financial terms
-* Connected to an actionable business implication
-* Interpreted with appropriate statistical limitations
+* Where is the business generating revenue?
+* Which products and categories are driving profitability?
+* Where is profitability under pressure?
+* Are higher discounts associated with weaker margins?
+* Which regions and locations perform differently?
+* Which customers are valuable, loyal, at risk, or lost?
+* Is sales growth translating into profitable growth?
 
 ---
 
-# 3. Dataset
+## 📊 Key Metrics
 
-### Source
+| Metric              |             Value |
+| ------------------- | ----------------: |
+| Analysis Period     |         2014–2017 |
+| Total Orders        |             5,009 |
+| Customers           |               793 |
+| Total Sales         | **$2,297,200.86** |
+| Total Profit        |   **$286,397.02** |
+| Profit Margin       |        **12.47%** |
+| Average Order Value |       **$458.61** |
+| Dashboards          |                 5 |
 
-**Sample Superstore Dataset**
+---
 
-### Dataset Details
+## 🧩 Analytical Approach
 
-| Attribute        | Details                   |
-| ---------------- | ------------------------- |
-| Rows             | 9,994                     |
-| Original Columns | 21                        |
-| Date Range       | 2014–2017                 |
-| Customers        | 793                       |
-| Encoding         | Windows-1252 (`cp1252`)   |
-| File             | `Sample - Superstore.csv` |
+### 1. Data Preparation
 
-### Key Columns
+* Loaded raw Superstore data using Python/Pandas
+* Handled Windows-1252 encoding
+* Validated duplicates and null values
+* Retained legitimate negative-profit transactions
+* Created analytical features
+
+### 2. Exploratory Analysis
+
+Analyzed:
+
+* Sales trends
+* Profitability
+* Product performance
+* Discount impact
+* Geographic performance
+* Customer behavior
+
+### 3. SQL Analytics
+
+Built reusable SQL queries and analytical views using:
+
+* Aggregations
+* Joins
+* `CASE`
+* CTEs
+* Window functions
+* `RANK()`
+* `LAG()`
+* `SUM() OVER()`
+
+### 4. Customer Analytics
+
+Implemented RFM analysis using:
+
+* Recency
+* Frequency
+* Monetary value
+
+Customer segments:
+
+`Champions` · `Loyal` · `Recent` · `At Risk` · `Lost`
+
+### 5. Business Intelligence
+
+Created five Tableau dashboards covering executive, product, discount, geographic, and customer perspectives.
+
+---
+
+## 🛠️ Tech Stack
+
+| Category             | Tools                                           |
+| -------------------- | ----------------------------------------------- |
+| **Programming**      | Python, Pandas                                  |
+| **Database**         | MySQL                                           |
+| **Data Integration** | SQLAlchemy                                      |
+| **Querying**         | SQL                                             |
+| **Visualization**    | Tableau Public                                  |
+| **EDA**              | Matplotlib, Seaborn                             |
+| **Analytics**        | RFM, Correlation Analysis, Time-Series Analysis |
+
+---
+
+## 🔄 Analytics Workflow
 
 ```text
-Order Date
-Ship Date
-Customer ID
-Customer Name
-Segment
-Region
-State
-City
-Category
-Sub-Category
-Product Name
-Sales
-Quantity
-Discount
-Profit
-```
-
-### Data Quality
-
-* 0 duplicate records
-* 0 null values found during validation
-* Negative profit values retained because they represent genuine business losses
-
-### Dataset Limitation
-
-The dataset does not contain **product cost** or **shipping cost** fields. Therefore, profitability analysis relies on the provided `Profit` column.
-
----
-
-# 4. Tech Stack
-
-| Technology               | Purpose                                             |
-| ------------------------ | --------------------------------------------------- |
-| **Python / Pandas**      | Data cleaning, validation, feature engineering, EDA |
-| **MySQL**                | Relational data storage                             |
-| **SQLAlchemy**           | Python-to-MySQL connection                          |
-| **SQL**                  | Business analysis and reusable views                |
-| **Tableau Public**       | Interactive dashboards                              |
-| **Matplotlib / Seaborn** | Exploratory analysis                                |
-
----
-
-# 5. Project Workflow
-
-```mermaid
-flowchart LR
-
-    A["Raw CSV"] --> B["Python"]
-
-    B --> B1["Data Ingestion"]
-    B1 --> B2["Cleaning & Validation"]
-    B2 --> B3["Feature Engineering"]
-    B3 --> B4["EDA"]
-
-    B4 --> C["MySQL"]
-
-    C --> D["SQL Analysis"]
-
-    D --> D1["Business Queries"]
-    D --> D2["Window Functions"]
-    D --> D3["Reusable Views"]
-
-    D3 --> E["Tableau"]
-
-    E --> F["Business Findings"]
-    F --> G["Recommendations"]
-```
-
-### Pipeline
-
-```text
-Raw CSV
-   ↓
-Python
-   ├── Ingestion
-   ├── Cleaning
-   ├── Validation
-   ├── Feature Engineering
-   └── EDA
-   ↓
-MySQL
-   ↓
-SQL
-   ├── Business Queries
-   ├── Window Functions
-   └── Analytical Views
-   ↓
-Tableau
-   ↓
-Insights & Recommendations
+                    ┌───────────────┐
+                    │   Raw CSV     │
+                    └───────┬───────┘
+                            │
+                            ▼
+                    ┌───────────────┐
+                    │    Python     │
+                    │               │
+                    │ • Cleaning    │
+                    │ • Validation  │
+                    │ • Features    │
+                    │ • EDA         │
+                    └───────┬───────┘
+                            │
+                            ▼
+                    ┌───────────────┐
+                    │     MySQL     │
+                    └───────┬───────┘
+                            │
+                            ▼
+                    ┌───────────────┐
+                    │      SQL      │
+                    │               │
+                    │ • Analysis    │
+                    │ • CTEs        │
+                    │ • Windows     │
+                    │ • Views       │
+                    └───────┬───────┘
+                            │
+                            ▼
+                    ┌───────────────┐
+                    │    Tableau    │
+                    │  Dashboards   │
+                    └───────┬───────┘
+                            │
+                            ▼
+                    ┌───────────────┐
+                    │   Business    │
+                    │   Insights    │
+                    └───────────────┘
 ```
 
 ---
 
-# 6. Project Structure
+## 📁 Repository Structure
 
 ```text
-superstore-analytics/
+superstore-sales-profitability-analytics/
 │
 ├── data/
 │   ├── Sample - Superstore.csv
@@ -237,7 +217,160 @@ superstore-analytics/
 
 ---
 
-# 7. Setup & Installation
+## 🗃️ Dataset
+
+### Source
+
+**Sample Superstore Dataset**
+
+| Attribute  | Details                 |
+| ---------- | ----------------------- |
+| Records    | 9,994                   |
+| Columns    | 21                      |
+| Date Range | 2014–2017               |
+| Customers  | 793                     |
+| Encoding   | Windows-1252 (`cp1252`) |
+
+### Key Fields
+
+```text
+Order Date
+Ship Date
+Customer ID
+Customer Name
+Segment
+Region
+State
+City
+Category
+Sub-Category
+Product Name
+Sales
+Quantity
+Discount
+Profit
+```
+
+### Data Quality
+
+* **0** duplicate records
+* **0** null values found during validation
+* Negative profit values retained as genuine business losses
+
+### Limitation
+
+The dataset does not contain product cost or shipping cost fields. Therefore, profitability analysis relies on the provided `Profit` column.
+
+---
+
+# 📈 Key Findings
+
+## 1. Discount & Profitability
+
+The analysis found a **Pearson correlation of -0.864** between discount and profit margin.
+
+| Discount | Profit Margin |
+| -------- | ------------: |
+| 0%       |        29.51% |
+| 21–30%   |      Negative |
+| 50%+     |      -119.20% |
+
+> **Note:** Correlation does not establish causation.
+
+An important product-level observation is **Binders**, which had an average discount of **37.23%** while still generating **$30,221.76 profit**.
+
+This indicates that discount level alone does not determine profitability.
+
+---
+
+## 2. Product Profitability
+
+**Tables** generated:
+
+| Metric           |           Value |
+| ---------------- | --------------: |
+| Sales            |     $206,965.53 |
+| Profit           | **-$17,725.48** |
+| Average Discount |          26.13% |
+
+This identifies Tables as an area for further SKU-level profitability analysis.
+
+---
+
+## 3. Geographic Performance
+
+| Region  |      Profit |
+| ------- | ----------: |
+| West    | $108,418.45 |
+| Central |  $39,706.36 |
+
+Sales-profit quadrant analysis was used to identify geographic areas with relatively high sales but weaker profitability.
+
+---
+
+## 4. Customer Value
+
+RFM analysis was performed across **793 customers**.
+
+| Segment | Customers | Historical Sales |
+| ------- | --------: | ---------------: |
+| Loyal   |       211 |      $716,805.46 |
+| Lost    |       297 |      $550,543.60 |
+| At Risk |        90 |      $309,501.64 |
+
+The results show that customer count and customer economic value are not necessarily aligned.
+
+---
+
+## 5. Growth & Profitability
+
+| Year | Profit Margin |
+| ---- | ------------: |
+| 2014 |        10.23% |
+| 2016 |        13.43% |
+| 2017 |        12.74% |
+
+Sales increased **20.36% in 2017**, while AOV declined despite increased order volume.
+
+---
+
+# 💼 Business Recommendations
+
+Based on the analysis:
+
+1. Move from blanket discounting toward **product-specific discount limits**.
+2. Investigate **Tables at SKU level** to identify drivers of negative profitability.
+3. Investigate factors contributing to the **West vs. Central profitability gap**.
+4. Develop targeted reactivation strategies for **At-Risk customers**.
+5. Monitor **sales growth together with profit and margin**.
+
+---
+
+# 📊 Tableau Dashboards
+
+Five dashboards were developed:
+
+| Dashboard                       | Focus                                         |
+| ------------------------------- | --------------------------------------------- |
+| **Executive Overview**          | Overall sales, profit, orders, AOV and trends |
+| **Product & Sales Performance** | Products, sub-categories, sales and profit    |
+| **Discount & Margin**           | Discount levels and profitability             |
+| **Geographic Performance**      | Region, state and city performance            |
+| **Customer & Growth**           | RFM segments and customer value               |
+
+### Dashboard File
+
+```text
+tableau/superstore_dashboard.twbx
+```
+
+### Tableau Public
+
+**[View Interactive Dashboard](ADD_YOUR_TABLEAU_LINK_HERE)**
+
+---
+
+# ⚙️ Setup & Execution
 
 ## Prerequisites
 
@@ -248,53 +381,31 @@ superstore-analytics/
 ## Clone Repository
 
 ```bash
-git clone https://github.com/<your-username>/superstore-analytics.git
-cd superstore-analytics
+git clone https://github.com/priyankadatacodes/superstore-sales-profitability-analytics.git
+cd superstore-sales-profitability-analytics
 ```
 
-## Install Python Dependencies
+## Install Dependencies
 
 ```bash
 pip install pandas sqlalchemy pymysql matplotlib seaborn
 ```
 
-## Create MySQL Database
+## Create Database
 
 ```sql
 CREATE DATABASE superstore;
 ```
 
-## Configure Database Connection
-
-Update:
-
-```text
-python/09_mysql_upload.py
-```
-
-Example:
-
-```python
-from sqlalchemy import create_engine
-
-engine = create_engine(
-    "mysql+pymysql://root:<your_password>@localhost:3306/superstore"
-)
-```
-
 ## Add Dataset
 
-Place the raw dataset at:
+Place the dataset here:
 
 ```text
 data/Sample - Superstore.csv
 ```
 
----
-
-# 8. How to Run
-
-## Step 1 — Run Python Scripts
+## Run Python Pipeline
 
 ```bash
 python python/01_data_ingestion.py
@@ -309,7 +420,7 @@ python python/09_mysql_upload.py
 python python/10_tableau_export.py
 ```
 
-Additional analysis:
+### Additional Analysis
 
 ```bash
 python python/11_correlation_analysis.py
@@ -317,7 +428,7 @@ python python/12_quadrant_data_prep.py
 python python/13_extended_analysis.py
 ```
 
-## Step 2 — Run SQL
+## Run SQL
 
 ```sql
 SOURCE sql/01_database_setup.sql;
@@ -325,325 +436,94 @@ SOURCE sql/02_table_creation.sql;
 SOURCE sql/09_create_views.sql;
 ```
 
-Individual analysis queries can then be executed as required.
-
-## Step 3 — Open Tableau
-
-Open:
+## Open Tableau
 
 ```text
 tableau/superstore_dashboard.twbx
 ```
 
-or connect Tableau to the exported files in:
-
-```text
-tableau/exports/
-```
-
 ---
 
-# 9. Data Cleaning & Feature Engineering
-
-## Data Cleaning
-
-### Encoding
-
-The raw CSV uses Windows-1252 encoding.
-
-It was loaded using:
-
-```python
-pd.read_csv(
-    "Sample - Superstore.csv",
-    encoding="cp1252"
-)
-```
-
-The cleaned dataset was then saved as UTF-8.
-
-### Validation
-
-The dataset was explicitly checked for:
-
-```text
-Duplicates → 0
-Nulls      → 0
-```
-
-### Negative Profit
-
-Negative profit values were retained because they represent actual business losses rather than data errors.
-
----
-
-## Feature Engineering
-
-The project expanded the dataset with analytical features for profitability, discount analysis, time trends, and customer segmentation.
-
-| Feature          | Logic                    | Purpose                      |
-| ---------------- | ------------------------ | ---------------------------- |
-| Profit Margin %  | `Profit / Sales × 100`   | Normalize profitability      |
-| Discount Buckets | Discount ranges          | Identify discount thresholds |
-| Recency          | Days since last order    | RFM analysis                 |
-| Frequency        | Number of orders         | RFM analysis                 |
-| Monetary         | Total sales per customer | Customer value               |
-| RFM Segment      | R/F/M scoring            | Customer segmentation        |
-
-### RFM Segments
-
-```text
-Champions
-Loyal
-Recent
-At Risk
-Lost
-```
-
----
-
-# 10. SQL Analysis
-
-The SQL layer transforms cleaned data into reusable business analysis.
-
-### SQL Techniques
-
-```text
-SELECT
-WHERE
-GROUP BY
-HAVING
-ORDER BY
-CASE
-JOIN
-CTEs
-RANK()
-LAG()
-SUM() OVER()
-```
-
-### Analytical Views
-
-| View                          | Purpose                                |
-| ----------------------------- | -------------------------------------- |
-| `vw_sales_performance`        | Sales KPIs by time and category        |
-| `vw_product_profitability`    | Product and sub-category profitability |
-| `vw_discount_analysis`        | Discount vs. margin                    |
-| `vw_geographic_profitability` | Region, state and city performance     |
-| `vw_monthly_performance`      | Monthly and YoY trends                 |
-| `vw_customer_rfm`             | Customer RFM scores and segments       |
-
----
-
-# 11. Tableau Dashboards
-
-Five interactive dashboards were created.
-
-| Dashboard                       | Business Question                                |
-| ------------------------------- | ------------------------------------------------ |
-| **Executive Overview**          | Are we growing profitably?                       |
-| **Product & Sales Performance** | Which products drive revenue and profit?         |
-| **Discount & Margin**           | Where is discounting hurting profitability?      |
-| **Geographic Performance**      | Where is the business performing geographically? |
-| **Customer & Growth**           | Which customers are valuable and at risk?        |
-
-### Dashboard Components
-
-**Executive Overview**
-
-* Total Sales
-* Profit Margin
-* Orders
-* AOV
-* Monthly/yearly trends
-* Category and regional performance
-
-**Product & Sales Performance**
-
-* Sub-category rankings
-* Top products
-* Sales vs. profit matrix
-
-**Discount & Margin**
-
-* Discount buckets
-* Margin analysis
-* Sales-profit quadrant
-* Loss-making sub-categories
-
-**Geographic Performance**
-
-* Region comparison
-* State-level analysis
-* City performance
-* Geographic map
-
-**Customer & Growth**
-
-* RFM segments
-* Customer value
-* Loyal customers
-* At-Risk customers
-
-**Tableau Public:** `[Add Tableau Link]`
-
----
-
-# 12. Key Findings
-
-## 12.1 Discount vs. Profitability
-
-Pearson correlation between discount and profit margin:
-
-**-0.864**
-
-Average profit margin:
-
-| Discount |   Margin |
-| -------- | -------: |
-| 0%       |   29.51% |
-| 21–30%   | Negative |
-| 50%+     | -119.20% |
-
-However, correlation does not establish causation.
-
-**Binders** had an average discount of **37.23%** while still generating **$30,221.76 profit**, showing that discount level alone does not determine profitability.
-
----
-
-## 12.2 Product Profitability
-
-**Tables** generated:
-
-| Metric           |       Value |
-| ---------------- | ----------: |
-| Sales            | $206,965.53 |
-| Profit           | -$17,725.48 |
-| Average Discount |      26.13% |
-
----
-
-## 12.3 Geographic Performance
-
-| Region  |      Profit |
-| ------- | ----------: |
-| West    | $108,418.45 |
-| Central |  $39,706.36 |
-
-The sales-profit quadrant analysis identifies geographic areas with relatively high sales but weaker profitability.
-
----
-
-## 12.4 Customer Value
-
-Across 793 RFM-segmented customers:
-
-| Segment | Customers | Historical Sales |
-| ------- | --------: | ---------------: |
-| Loyal   |       211 |      $716,805.46 |
-| Lost    |       297 |      $550,543.60 |
-| At Risk |        90 |      $309,501.64 |
-
-This shows that customer count and customer economic value are not necessarily aligned.
-
----
-
-## 12.5 Growth & Profitability
-
-Profit margin:
-
-| Year | Profit Margin |
-| ---- | ------------: |
-| 2014 |        10.23% |
-| 2016 |        13.43% |
-| 2017 |        12.74% |
-
-Sales increased **20.36% in 2017**, while AOV declined despite an increase in order volume.
-
----
-
-# 13. Business Recommendations
-
-1. Move from blanket discounting to **product-specific discount limits**.
-2. Investigate **Tables at SKU level** to identify the drivers of losses.
-3. Investigate what is contributing to the **West vs. Central profitability gap**.
-4. Develop a targeted reactivation strategy for the **90 At-Risk customers**.
-5. Monitor **sales growth alongside profit and margin**.
-
----
-
-# 14. Limitations
-
-* No product cost or shipping cost fields.
-* Profitability analysis relies on the provided `Profit` column.
-* Discount-profit correlation does not prove causation.
-* RFM segmentation is descriptive, not predictive.
-* Tableau Public required a CSV-extract workflow.
-* Dataset ends in 2017; findings do not represent current business conditions.
-
----
-
-# 15. Future Improvements
-
-* Cohort-based customer retention analysis
-* Churn prediction using RFM and behavioral features
-* Product cost and shipping cost analysis
-* Automated SQL and Python data refresh
-* A/B testing of discount caps
-* Interactive discount scenario analysis
-
----
-
-# 16. Skills Demonstrated
+# 🧠 Skills Demonstrated
+
+### Data Analysis
+
+* Exploratory Data Analysis
+* Profitability Analysis
+* Trend Analysis
+* Geographic Analysis
+* Customer Segmentation
+* Correlation Analysis
 
 ### Python
 
 * Pandas
-* Data cleaning and validation
-* Feature engineering
-* Exploratory data analysis
-* Correlation analysis
-* RFM segmentation
+* Data Cleaning
+* Data Validation
+* Feature Engineering
+* RFM Segmentation
 
 ### SQL
 
 * Aggregations
 * Joins
-* CASE statements
+* CASE Statements
 * CTEs
-* Window functions
-* Analytical views
+* Window Functions
+* Analytical Views
 
-### Database
+### MySQL
 
-* MySQL
-* Schema design
-* SQLAlchemy
-* Python-to-database integration
+* Database Setup
+* Table Creation
+* Data Loading
+* SQLAlchemy Integration
 
 ### Tableau
 
-* Interactive dashboards
-* Calculated fields
-* LOD expressions
+* Interactive Dashboards
+* Calculated Fields
+* LOD Expressions
 * Parameters
-* Dashboard actions
-* Data relationships
-
-### Analytical Skills
-
-* Business problem framing
-* Profitability analysis
-* Customer segmentation
-* Statistical interpretation
-* Correlation vs. causation
-* Translating analysis into business recommendations
+* Dashboard Actions
+* Data Relationships
 
 ---
 
-# 17. Author
+# ⚠️ Limitations
+
+* No product cost or shipping cost fields
+* Profitability analysis relies on the provided `Profit` column
+* Discount-profit correlation does not prove causation
+* RFM segmentation is descriptive, not predictive
+* Tableau Public requires a CSV-extract workflow
+* Dataset ends in 2017 and does not represent current business conditions
+
+---
+
+# 🔮 Future Improvements
+
+* Cohort-based customer retention analysis
+* Churn prediction
+* Customer lifetime value analysis
+* Product cost and shipping cost analysis
+* Automated Python and SQL refresh
+* A/B testing of discount caps
+* Interactive discount scenario analysis
+
+---
+
+# 👩‍💻 Author
 
 **Priyanka Lakra**
 Data Analyst
 
-[Portfolio](https://bloomindata.in/) · [LinkedIn](#) · [GitHub](#)
+🌐 **Portfolio:** [bloomindata.in](https://bloomindata.in/)
+
+💻 **GitHub:** [priyankadatacodes](https://github.com/priyankadatacodes)
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
